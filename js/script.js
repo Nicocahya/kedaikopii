@@ -52,7 +52,7 @@ itemDetailButtons.forEach((btn) => {
   };
 });
 
-// klik tombol close modal
+// klik tombol close modall
 document.querySelector('.modal .close-icon').onclick = (e) => {
   itemDetailModal.style.display = 'none';
   e.preventDefault();
